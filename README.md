@@ -3,7 +3,7 @@ About r-rmutil
 
 Home: http://www.commanster.eu/rcode.html
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmutil-feedstock/blob/master/LICENSE.txt)
 
