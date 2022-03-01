@@ -1,4 +1,4 @@
-{% set version = "1.1.8" %}
+{% set version = "1.1.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rmutil_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rmutil/rmutil_{{ version }}.tar.gz
-  sha256: 0f8d7008df646bf899bbf9f97245da1df7f42e9b68da5e0e9c3d3f71e05151f7
+  sha256: 3a68cc4058394fcb6bab960a680bad939ad7270888f4c271ca6438e49670333c
 
 build:
   merge_build_host: true  # [win]
